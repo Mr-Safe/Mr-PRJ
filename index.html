@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Мой проект</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#chat">Чат</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="home" class="page">
+      <h1>Добро пожаловать на главную страницу!</h1>
+      <p>Здесь вы найдете информацию о проекте.</p>
+    </div>
+
+    <div id="chat" class="page">
+      <h1>Чат</h1>
+      <div id="chat-container">
+        <div id="messages"></div>
+        <input type="text" id="message-input" placeholder="Введите сообщение">
+        <button id="send-button">Отправить</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
